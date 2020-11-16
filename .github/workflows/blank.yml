@@ -34,7 +34,7 @@ jobs:
       - name: Build the docker images
         run: |
           docker login batelt-devops101.jfrog.io -u ${{ secrets. JF_ARTIFACTORY_USER}} -p ${{ secrets. JF_ARTIFACTORY_PASSWORD}}
-          docker build --tag batelt-devops101.jfrog.io/my-docker-image:latest /home/runner/work/devops-101-workshop/devops-101-workshop/sample-projects/docker-example
+          docker build --tag batelt-devops101.jfrog.io/my-docker-image:latest /home/runner/work/devops-101-workshop/devops-101-workshop/sample-projects/docker-example/
       
       - name: Docker push with JFrog CLI
         run: |
