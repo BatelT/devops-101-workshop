@@ -48,4 +48,6 @@ jobs:
       - name: Publish build info 
         run: |
           ./jfrog rt bp devops101-docker ${{ github.run_number }}          
+          
+          
 
