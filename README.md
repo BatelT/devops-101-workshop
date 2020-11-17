@@ -9,7 +9,7 @@ When you’re new to an industry, you encounter a lot of new concepts. This can 
 
 1. [JFrog Cloud account](https://jfrog.com/artifactory/start-free/#saas)
 
-    This is free, no credit card required. It includes access to Artifactory and Xray, with a limited amount of storage, transfer, and build minutes. 
+    This is free, no credit card required. It includes access to Artifactory and Xray, with a limited amount of storage transfer. 
 2. Docker
 
     The Docker client should be installed and configured on your machine.
